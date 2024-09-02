@@ -48,12 +48,8 @@ This project is a simple chat application using Apache Pulsar for messaging, wit
 1. **Create the UI1(ENTITY2) File**:
    Save the file as `ChatUI.java`. This file contains the producer and consumer logic for the first entity.
 
-   ![ChatUI](images/chatui.png) <!-- Add an image of the ChatUI code or UI if available -->
-
 2. **Create the UI2(ENTITY2) File**:
    Save the file as `ChatUI2.java`. This file contains the producer and consumer logic for the second entity.
-
-   ![ChatUI2](images/chatui2.png) <!-- Add an image of the ChatUI2 code or UI if available -->
 
 ### 4. Build and Run the Project
 
@@ -73,7 +69,7 @@ This project is a simple chat application using Apache Pulsar for messaging, wit
    ```bash
    mvn exec:java -Dexec.mainClass="org.example.ChatUI2"
    ```
-   ![Run Consumer](images/output.png) 
+   ![Run Consumer](output.png) 
 
 You should now have two chat applications running, each with its own GUI. Messages sent from one application should appear in the other.
 
