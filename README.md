@@ -1,5 +1,3 @@
-Certainly! Here's how you can integrate the architecture diagram into your README:
-
 ---
 
 # Chat Application with Apache Pulsar
@@ -94,4 +92,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Make sure to replace `path_to_your_image.png` with the actual path to the architecture diagram image you upload. This README provides a comprehensive guide with visual aids to help users understand the setup and architecture.
