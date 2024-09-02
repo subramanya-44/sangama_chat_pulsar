@@ -31,7 +31,7 @@ This project is a simple chat application using Apache Pulsar for messaging, wit
    - Port `6650` is used for Pulsar client connections.
    - Port `8080` is used for the Pulsar admin API.
 
-   ![Pulsar Docker](images/pulsar_docker.png) <!-- Add an image of Pulsar Docker setup if available -->
+
 
 ### 2. Setup Maven Dependencies
 
@@ -41,7 +41,7 @@ This project is a simple chat application using Apache Pulsar for messaging, wit
 2. **Add Dependencies**:
    Update your `pom.xml` file to include the necessary Pulsar dependencies. A sample `pom.xml` configuration is provided in the project repository.
 
-   ![Maven Dependencies](images/maven_dependencies.png) <!-- Add an image of the Maven dependencies setup if available -->
+   
 
 ### 3. Create and Configure Java Files
 
@@ -73,7 +73,7 @@ This project is a simple chat application using Apache Pulsar for messaging, wit
    ```bash
    mvn exec:java -Dexec.mainClass="org.example.ChatUI2"
    ```
-   ![Run Consumer](output.png) 
+   ![Run Consumer](images/output.png) 
 
 You should now have two chat applications running, each with its own GUI. Messages sent from one application should appear in the other.
 
